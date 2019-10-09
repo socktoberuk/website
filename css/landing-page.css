@@ -23,8 +23,12 @@ header.masthead {
   background-image: url("../img/banner.png");
   background-repeat: no-repeat;
   background-size:100% 100%;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+h1.mb-5 {
+  margin-bottom: 0.5rem !important;
 }
 
 header.masthead .overlay {
@@ -43,11 +47,12 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
   }
   header.masthead h1 {
     font-size: 3rem;
+    margin-bottom: 2rem !important;
   }
 }
 
