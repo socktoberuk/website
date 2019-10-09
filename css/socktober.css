@@ -167,6 +167,9 @@ a.navbar-item{
     .story.mid {
         background: white;
     }
+    .spacr {
+        margin-top: 0.5rem;
+    }
 }
 
 /* Shoutout to https://coolestguidesontheplanet.com/videodrome/youtube/ */
