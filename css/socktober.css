@@ -170,6 +170,12 @@ a.navbar-item{
     .spacr {
         margin-top: 0.5rem;
     }
+    .story:hover:not(.mid) {
+        background-color: white;
+    }
+    .story.mid:hover {
+        background-color: #0069d9;
+    }
 }
 
 /* Shoutout to https://coolestguidesontheplanet.com/videodrome/youtube/ */
