@@ -1,0 +1,160 @@
+a:hover:not(.fund) {
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+#sportinsub{
+    font-size: 1rem;
+}
+
+#simlogo{
+    height: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+#about {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.buysockbtn {
+    width: 50%;
+    height: 4.5rem;
+    margin: auto;
+    padding-top: 1.2rem;
+    background-color: black;
+}
+
+.btnwrapper{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 2rem !important;
+}
+
+.navbar-brand{
+    margin-right: 2rem !important;
+    width: 20% !important;
+}
+
+.btn-nav{
+    width: 9rem !important;
+    margin-left: 2rem !important;
+}
+
+a.navbar-item{
+    color: black;
+}
+
+.navbar-item{
+    text-align: center;
+    padding-right: 1rem;
+    margin: auto;
+}
+
+.navbar-item:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.description {
+    margin: auto;  
+}
+
+.showcase-img {
+    background-size: contain;
+    min-height: inherit !important;
+}
+
+.story:hover {
+    background-color: orange;
+}
+
+.custom-nav {
+    background-color: white;
+    display: flex;
+    padding: 1rem;
+}
+
+.cnav-item {
+    display:flex;
+    margin-top: auto;
+    margin-top: bottom;
+}
+
+.cnav-item.right {
+    margin-left:auto;
+}
+
+.toggle-nav {
+    display:none;
+}
+
+@media only screen and (max-width: 768px) {
+    #expand-border {
+         text-shadow: 0px 0px 3px #000;
+    }
+    .overlay {
+        height: 100% !important;
+    }
+    .cnav-item.show,
+    .custom-nav.show {
+        display: flex;
+        flex-direction: column;
+    }
+    .cnav-item.right {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+    .cnav-item,
+    .custom-nav {
+        display: none;
+    }
+    .cnav-item.remain {
+        text-align: center;
+    }
+    .btn-nav {
+        margin: auto !important;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    .toggle-nav {
+        font-size: 1rem;
+        margin-left: 0.6rem;
+        margin-top: 0.6rem;
+        align-self: flex-end;
+        display: block;
+        position: fixed;
+        top: 0px;
+        cursor: pointer;
+        z-index: 1000000;
+    }
+    .cnav-item.show {
+        display: flex;
+        z-index: 10000;
+        background-color: white;
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .hide {
+        display: none !important;
+    }
+    .navbar-item {
+        border-bottom: 2px black solid;
+        padding-right: 0;
+    }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
