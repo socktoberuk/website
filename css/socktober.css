@@ -171,6 +171,10 @@ a.navbar-item{
     margin: auto;
 }
 
+.testimonials {
+    padding-bottom: 3rem !important;
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
