@@ -20,8 +20,9 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #3cb4e5;
-  background-size: cover;
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -33,7 +34,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0;
+  opacity: 0.4;
 }
 
 header.masthead h1 {

@@ -10,6 +10,10 @@ a {
     font-size: 1rem;
 }
 
+#toplogo {
+    max-height:100%; max-width:100%;
+}
+
 #simlogo{
     height: 4rem;
     margin-bottom: 1.5rem;
@@ -25,7 +29,8 @@ a {
     height: 4.5rem;
     margin: auto;
     padding-top: 1.2rem;
-    background-color: black;
+    background-color: #0069d9;
+    border-color: #007bff;
 }
 
 .btnwrapper{
@@ -43,6 +48,8 @@ a {
 .btn-nav{
     width: 9rem !important;
     margin-left: 2rem !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
 }
 
 a.navbar-item{
@@ -69,6 +76,14 @@ a.navbar-item{
     min-height: inherit !important;
 }
 
+.story {
+    border-top: black 1px solid;
+}
+
+.borderbot {
+    border-bottom: black 1px solid;
+}
+
 .story:hover {
     background-color: orange;
 }
@@ -81,8 +96,6 @@ a.navbar-item{
 
 .cnav-item {
     display:flex;
-    margin-top: auto;
-    margin-top: bottom;
 }
 
 .cnav-item.right {
@@ -146,6 +159,13 @@ a.navbar-item{
     .navbar-item {
         border-bottom: 2px black solid;
         padding-right: 0;
+    }
+    .story:not(.mid) {
+        background: #0069d9;
+        background-opacity: 0.8;
+    }
+    .story.mid {
+        background: white;
     }
 }
 
